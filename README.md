@@ -2,13 +2,13 @@
 
 Welcome to the **Synnax Governance Protocol**. This repository contains the mechanics for the $SYN governance token, built to reward meaningful contributions and foster long-term community engagement.
 
----
+
 
 ## Overview
 
 The Synnax Governance protocol draws inspiration from the **Sanctum Earnestness model**, enhancing it by addressing its challenges and shortcomings. Synnax rewards both **monetary** and **social contributions**, with key improvements to scalability, transparency, and fairness.
 
----
+
 
 ## Key changes
 
@@ -23,7 +23,7 @@ The Synnax Governance protocol draws inspiration from the **Sanctum Earnestness 
 3. **Challengeable Social Contribution Scores**  
    - A **14-day challenge window** allows community members to dispute fraudulent or bot-driven contributions, promoting transparency and trust.
 
----
+
 
 ## Addressing Sanctum’s Weaknesses
 
@@ -50,7 +50,7 @@ The Synnax Governance protocol draws inspiration from the **Sanctum Earnestness 
 This approach ensures **fair recognition** for both financial and social efforts while empowering the community to **maintain accountability**.
 
 
----
+
 
 ## Reward System Overview
 
@@ -66,7 +66,7 @@ Monetary contributions are rewarded instantly, creating real-time feedback loops
 - **Public Monetary Leaderboard:**  
   - Contributors can track their performance and rank in real-time.
 
----
+
 
 ### **Social Contributions (Retroactive XP)**
 
@@ -83,7 +83,7 @@ Synnax’s social rewards are **not immediately published**. Instead, contributi
 - **Challenge Window:**  
   - After each review cycle, there is a **14-day challenge period** to flag any fraudulent or improper contributions for investigation.
 
----
+
 
 ## Summary of Key Changes
 
@@ -91,15 +91,13 @@ Synnax’s social rewards are **not immediately published**. Instead, contributi
 |---------------------------------|------------------------------------------|-------------------------------------------|
 | **Reward Timing**               | Retrospective, one-time                 | Instant for monetary, retroactive for social |
 | **Evaluation Process**          | Manual, limited transparency            | Automated for monetary, manual for social |
-| **Bonus Structure**             | None                                    | 10% bonus for sustained governance participation |
 | **Appeal Process**              | None                                    | 14-day challenge window for social fraud |
 
----
 
 ## How to Participate
 
 1. **Create a Profile:**  
-   Connect your wallet and social accounts (X, or discord) to synnax to begin tracking contributions.
+   Connect your wallet and social accounts (X or Discord) to Synnax to begin tracking contributions.
 
 2. **Contribute Financially:**  
    Mint syUSD, provide liquidity or trade on DEX to earn **instant XP** and track your rank on the **public monetary leaderboard**.
@@ -110,13 +108,11 @@ Synnax’s social rewards are **not immediately published**. Instead, contributi
 4. **Challenge Suspicious Scores:**  
    Use the **14-day challenge window** to flag improper contributions for review.
 
----
 
 ## Why This Matters
 
 By separating **monetary and social contributions**, Synnax ensures that financial backers and community builders are fairly rewarded. The **real-time public leaderboard** motivates financial contributors, while **retroactive social rewards** encourage long-term, meaningful involvement without risking manipulation.
 
----
 
 ## License
 

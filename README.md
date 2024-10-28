@@ -1,4 +1,4 @@
-# Synnax Incentive Protocol (Forked and Enhanced from Sanctum Earnestness)
+# Synnax Incentives (Forked and Enhanced from Sanctum Earnestness)
 
 Welcome to the **Synnax Governance Protocol**. This repository contains the mechanics for the $SYN governance token, built to reward meaningful contributions and foster long-term community engagement.
 
@@ -6,81 +6,115 @@ Welcome to the **Synnax Governance Protocol**. This repository contains the mech
 
 ## Overview
 
-The Synnax Governance protocol draws inspiration from the original **Sanctum design**, but with significant improvements. While both protocols align incentives with meaningful contributions, Synnax introduces two core innovations:
-
-- **Challengeable Social Rank Scores** – A post-publication challenge window allowing users to dispute fraudulent scores.
-- **Dynamic Multiplier System** – A flexible mechanism that rewards consistent, impactful contributions in real time.
+The Synnax Governance protocol draws inspiration from the **Sanctum Earnestness model**, enhancing it by addressing its challenges and shortcomings. Synnax rewards both **monetary** and **social contributions**, with key improvements to scalability, transparency, and fairness.
 
 ---
 
-## Why and How Synnax’s System Improves on Sanctum’s Earnestness Model
+## Key changes
 
-The Sanctum model faced key challenges, which Synnax aims to address:
+1. **Monetary XP and Real-Time Rank Updates**  
+   - Monetary contributions (e.g., staking, minting) grant **instant XP**, with ranks updating **in real time**.
+   - Contributors can monitor their performance through a **public monetary leaderboard**.
 
-- **Human farming exploits:**  
-  Organized groups manipulated participation scores to claim large portions of the airdrop.
+2. **Improved Social Contribution Evaluation**  
+   - Social contributions are evaluated **retroactively** to ensure meaningful efforts are rewarded.  
+   - The results will not be part of a public leaderboard and may be **announced at the team’s discretion** to prevent gaming the system.
 
-- **Opaque evaluation process:**  
-  Users lacked the ability to challenge bot-driven or fraudulent activity, causing frustration over fairness.
-
-Synnax introduces a **scalable, dynamic reward mechanism** that ensures **real-time participation tracking** and includes a **14-day challenge window**. This empowers the community to **identify and oppose fraudulent scores**, ensuring rewards are **transparent, fair, and aligned with long-term growth**.
-
----
-
-## Key Differences: Synnax’s Dynamic Multiplier System vs. Sanctum's Earnestness
-
-1. **Real-Time Scaling of Rewards**  
-   - Synnax tracks contributions dynamically using a **logarithmic multiplier formula**:
-     ```math
-     Multiplier = Base + log(1 + Contribution Impact)
-     ```
-   - This ensures even small contributions add value, with larger efforts earning greater rewards over time.
-
-2. **Automated Evaluation**  
-   - Unlike Sanctum’s manual review process, Synnax automates reward calculations, ensuring **faster and unbiased distribution**.
-
-3. **Incentivizing Long-Term Engagement**  
-   - Rewards in Synnax **scale with continued participation**, encouraging users to remain active over time.
-
-4. **Bonus Structure for Sustained Effort**  
-   - Users engaging in at least **three governance proposals** receive a **10% bonus** on accumulated rewards.
-
-5. **Appealable Social Scores**  
-   - Participants can **challenge fraudulent or bot-driven scores** within a 14-day window, fostering trust and transparency.
+3. **Challengeable Social Contribution Scores**  
+   - A **14-day challenge window** allows community members to dispute fraudulent or bot-driven contributions, promoting transparency and trust.
 
 ---
 
-## Summary of Improvements
+## Addressing Sanctum’s Weaknesses
 
-| **Aspect**                     | **Sanctum Earnestness**                 | **Synnax Dynamic Multiplier**                |
-|---------------------------------|------------------------------------------|----------------------------------------------|
-| **Reward Timing**               | Retrospective, one-time                 | Continuous, real-time scaling               |
-| **Evaluation Process**          | Manual, human-reviewed                  | Automated, formula-based                    |
-| **Long-Term Incentives**        | Static, decrease over time              | Dynamic, grow with ongoing effort           |
-| **Bonus Structure**             | None                                    | 10% bonus for sustained participation       |
-| **Appeal Process**              | None                                    | 14-day challenge window for fraud review    |
+
+1. **Manipulation and Exploits:**  
+   - Users **gamed the social contribution scores** by creating **farms of artificial participation** through bots and sybil attacks.  
+   - Some participants **deleted posts or inflated engagement metrics**, further skewing scores in their favor. 
+
+2. **Lack of Transparency:**  
+   - Sanctum failed to **clearly communicate how social scores were evaluated**, leaving contributors frustrated and disillusioned with the process.  
+   - This **opaque system fueled distrust** among users and made it difficult to validate genuine contributions, ultimately weakening community alignment.
+  
+
+## **Synnax’s Improvements: Transparent Social Contribution Rewards**
+
+1. **Careful Vetting with Retroactive Reviews and Challenges:**  
+   - Synnax performs **retroactive evaluations** to reward only **meaningful contributions** aligned with the project’s long-term goals.  
+   - A **14-day challenge window** allows users to dispute suspicious activities like **bots, sybil attacks, or deleted posts**, ensuring transparency and fairness.  
+
+2. **Balanced Incentives for Monetary and Social Contributions:**  
+   - **Monetary contributions** receive **instant on-chain XP**, updating ranks in real-time to keep financial supporters engaged.  
+   - **Social rewards** are awarded **after evaluation**, ensuring authenticity and preventing manipulation.  
+
+This approach ensures **fair recognition** for both financial and social efforts while empowering the community to **maintain accountability**.
+
 
 ---
 
-## Why These Changes Matter
+## Reward System Overview
 
-The **Dynamic Multiplier System** ensures that Synnax remains adaptive, rewarding both **initial and sustained contributions**. By automating and scaling rewards, the protocol encourages participants to **stay engaged continuously**. This transition from static rewards to dynamic scaling fosters a more **engaging, transparent, and fair governance experience**.
+### **Monetary Contributions (Instant XP)**
+
+Monetary contributions are rewarded instantly, creating real-time feedback loops for users.
+
+- **XP Allocation Examples:**  
+  - Minting : +2 XP per $100 minted
+  - Staking: +5 XP per $100 staked per day
+  - Liquidity Provision: +8 XP per $100 added per day 
+  
+- **Public Monetary Leaderboard:**  
+  - Contributors can track their performance and rank in real-time.
+
+---
+
+### **Social Contributions (Retroactive XP)**
+
+Synnax’s social rewards are **not immediately published**. Instead, contributions are carefully evaluated during review period. 
+
+- **Examples of Social Contributions:**  
+  - Hosting AMAs or events  
+  - Creating educational content or translating official documents  
+  - Proposing and supporting governance initiatives  
+
+- **Bonus for Governance Participation:**  
+  - Participants engaging in **at least three proposals** during a review period. 
+
+- **Challenge Window:**  
+  - After each review cycle, there is a **14-day challenge period** to flag any fraudulent or improper contributions for investigation.
+
+---
+
+## Summary of Key Changes
+
+| **Aspect**                     | **Sanctum Earnestness**                 | **Synnax Hybrid Model**                   |
+|---------------------------------|------------------------------------------|-------------------------------------------|
+| **Reward Timing**               | Retrospective, one-time                 | Instant for monetary, retroactive for social |
+| **Evaluation Process**          | Manual, limited transparency            | Automated for monetary, manual for social |
+| **Bonus Structure**             | None                                    | 10% bonus for sustained governance participation |
+| **Appeal Process**              | None                                    | 14-day challenge window for social fraud |
 
 ---
 
 ## How to Participate
 
 1. **Create a Profile:**  
-   Connect your social accounts and initialize your engagement score (currently in development).
+   Connect your wallet and social accounts (X, or discord) to synnax to begin tracking contributions.
 
-2. **Contribute to Governance:**  
-   Participate in governance discussions, proposals, or help onboard new users.
+2. **Contribute Financially:**  
+   Mint syUSD, provide liquidity or trade on DEX to earn **instant XP** and track your rank on the **public monetary leaderboard**.
 
-3. **Monitor Your Rank:**  
-   Track your engagement score regularly. Use the 14-day challenge window to dispute any fraudulent activity.
+3. **Engage in Governance:**  
+   Participate in AMAs, governance discussions, or content creation to earn through retroactive evaluation.
 
-4. **Maximize Your Rewards:**  
-   Stay active to unlock **higher rewards through the dynamic multiplier** and governance participation bonuses.
+4. **Challenge Suspicious Scores:**  
+   Use the **14-day challenge window** to flag improper contributions for review.
+
+---
+
+## Why This Matters
+
+By separating **monetary and social contributions**, Synnax ensures that financial backers and community builders are fairly rewarded. The **real-time public leaderboard** motivates financial contributors, while **retroactive social rewards** encourage long-term, meaningful involvement without risking manipulation.
 
 ---
 
